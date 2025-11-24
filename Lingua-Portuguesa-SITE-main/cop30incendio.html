@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incêndio COP30</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="bope.css">
+    <link rel="shortcut icon" href="foto/revista.png" type="image/x-icon">
+    <script src="cop30incendio.js"></script>
+</head>
+<body>
+
+<header>
+        <nav class="navbar navbar-expand-lg fixed-top h " id="box6">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" id="lcc">
+                    <img src="foto/revista.png" alt="Geornal" class="img-fluid " id="lc"> Geornal
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="qrcode.html" id="fo">QR code</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ctt.html" id="fo3">Contato</a></li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false" id="fo4">
+                                Noticias
+                            </a>
+
+                            <ul class="dropdown-menu" id="fo5">
+                                <li><a class="dropdown-item" href="bope.html" id="fo6">Bope</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                 <li><a class="dropdown-item" href="japao.html" id="fo6">Terremoto Japão</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                               <li><a class="dropdown-item" href="tufao.html" id="fo6">Tufão Filipinas</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="cop30incendio.html" id="fo7">COP30</a></li>
+                                 <li><hr class="dropdown-divider"></li>
+                                <li><button class="w-100 border-0 " id="modo">Modo Escuro</button></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <div class="container abc my-5">
+    
+        <!-- contexto -->
+        <header class="text-center mb-5">
+            <h1 class="display-4 fw-bold text-primary">Pavilhão da COP30 entra em chamas</h1>
+            <p class="lead">Incêndio foi controlado em 6 minutos e evacuação foi rápida.</p>
+        </header>
+
+        <div id="carro" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carro" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carro" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carro" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carro" data-bs-slide-to="3"></button>
+            </div>
+            <div class="carousel-inner rounded shadow">
+                <div class="carousel-item active">
+                    <img src="fotos/gifFog.gif" class="d-block w-100 img-fluid" style="height:60vh; object-fit:cover;">
+                    <div class="carousel-caption d-block bg-dark bg-opacity-75 rounded p-3">
+                        <h5>"Área parcialmente colapsada"</h5>
+                        <p>Aberturas no teto queimado deixam a luz entrar enquanto equipes se reúnem no local do incidente.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="foto/cop1.jpg" class="d-block w-100 img-fluid" style="height:60vh; object-fit:cover;">
+                    <div class="carousel-caption d-block bg-dark bg-opacity-75 rounded p-3">
+                        <h5>"Incêndio toma pavilhão da COP30"</h5>
+                        <p>Chamas intensas se espalham rapidamente enquanto pessoas correm e equipes tentam conter o fogo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="fotos/BOmb.jpg" class="d-block w-100 img-fluid" style="height:60vh; object-fit:cover;">
+                    <div class="carousel-caption d-block bg-dark bg-opacity-75 rounded p-3">
+                        <h5>"Bombeiros atuam no pavilhão da COP30"</h5>
+                        <p>Viaturas e equipes dos bombeiros permanecem no local após o incêndio, realizando rescaldo e avaliação da estrutura.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="foto/cop2.jpg" class="d-block w-100 img-fluid" style="height:60vh; object-fit:cover;">
+                    <div class="carousel-caption d-block bg-dark bg-opacity-75 rounded p-3">
+                        <h5>"Estruturas destruídas após o fogo"</h5>
+                        <p>O interior do pavilhão aparece devastado, com móveis queimados e equipes avaliando os danos.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carro" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carro" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+         
+        </div>
+
+        <hr class="my-5">
+
+        <!-- Texto principal -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 col-lg-10">
+                <p class="lead fs-4">“O início do pânico”. Segundo a Agência Brasil, <strong>por volta das 14h,</strong> gritos de “fire!” começaram a ecoar pelos corredores da Zona Azul da COP30, levando seguranças a iniciarem uma evacuação rápida.
+                    O incêndio teve início no Pavilhão dos Países, próximo ao <strong>estande da China.</strong></p>
+                <p class="fs-5">Incêndio na COP30 foi controlado em 6 minutos e evacuação foi rápida. Correria e gritos assustaram quem circulava pela Zona Azul</p>
+                
+            </div>
+        </div>
+
+        <!-- Opinião dos moradores -->
+        <section class="my-5">
+            <h1 class="text-primary skiny text-center mb-4">Relatos de voluntários:</h1>
+            <hr>
+            <br>
+            <img src="foto/cop3.jpg" class="img-fluid opn rounded shadow d-block mx-auto mb-4" alt="COP30">
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-lg-6">
+                    <blockquote class="p-4 border-start border-primary border-5 bg-white rounded bh shadow">
+                        <p class="fs-4 fst-italic">“Pessoal correndo, aí escutei ‘fire’ e entendi que era fogo. Segui o protocolo e saí junto com todo mundo, em tranquilidade. É o protocolo básico: está havendo fogo, evacua e deixa os profissionais trabalharem, até para não impedir eles de irem onde precisam ir.”<a href="https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2025-11/incendio-na-cop30-foi-controlado-em-6-minutos-e-evacuacao-foi-rapida" class=" fw-bold f" target="_blank"> Veja mais sobre</a></p>
+                        <footer class="text-primary fs-5"><b>— Mateus Eulan</b></footer>
+                    </blockquote>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <blockquote class="p-4 border-start border-primary border-5 bg-white bh rounded shadow">
+                        <p class="fs-4 fst-italic">“Não era visível o fogo pra mim, mas depois ouvi bastante barulho. Fiquei assustado, as pessoas correndo e gritando ‘fire’, ‘fire’. E fui correndo. Não consegui ajudar muita gente, mas os bombeiros são treinados para isso. Graças a Deus todo mundo conseguiu evacuar em tempo. Passou um filme na cabeça. Pensei que fosse acontecer algo mais grave, mas o fogo foi controlado e todo mundo saiu em segurança.”<a href="https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2025-11/incendio-na-cop30-foi-controlado-em-6-minutos-e-evacuacao-foi-rapida" class=" fw-bold f" target="_blank">Veja mais sobre</a></p>
+                        <footer class="text-primary fs-5"><b>— Ousmane Kava</b></footer>
+                    </blockquote>
+                </div>
+            </div>
+            <p class="text-center mt-4 text-muted">Voluntários relataram susto e correria, mas destacaram evacuação rápida e ação eficiente dos bombeiros.</p>
+        </section>
+
+        
+
+
+        
+        <section class="my-5">
+            <h1 class="text-primary text-center skiny mb-4">O que é a COP30?</h1>
+            <hr>
+            <br>
+            <img src="foto/cop4.jpg" class="img-fluid rounded shadow d-block opn mx-auto mb-4" alt="Moradores">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-12">
+                        <div class="fatosc border border-primary border-2 rounded shadow-lg p-5 text-center">
+                            <h2 class="fatosn text-center text-primary amir">30th Conference Of the Parties</h2>
+                            <p class="text-black fs-4">
+                                A COP 30 é uma reunião sobre o clima que acontecerá em Belém (PA), em 2025, para avaliar metas e desenvolver medidas que visam reduzir os impactos do aquecimento global.
+                                A COP 30 é a 30ª edição da reunião da Conferência das Partes, que será realizada na cidade de Belém (PA), na região Norte do Brasil. A COP é o órgão decisório da Convenção-Quadro das Nações Unidas sobre a Mudança do Clima (UNFCCC), criado durante a ECO-92. A primeira reunião da COP aconteceu em Berlim, na Alemanha, em 1995, e desde então tem sido fundamental para o desenvolvimento de instrumentos normativos para a ação climática, visando à desaceleração do aquecimento global e à redução dos impactos das mudanças climáticas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+
+
+
+            <!--dados-->
+
+        <section class="dadinhos">
+            <h2 class="text-center text-primary abu">Por que é importante?</h2>
+            <hr>
+            <br>
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="fatosc h-100 border border-2 border-primary">
+                            <div class="fatosn text-primary">Credibilidade abalada</div>
+                            <p class=" fst-italic flex-grow-1 mb-3">
+                               O incêndio na Zona Azul da COP30, onde ocorrem negociações oficiais, forçou a evacuação de delegados, interrompendo conversas cruciais. Isso prejudica a imagem do Brasil como anfitrião seguro e confiável.
+                            </p>
+                            <small><a href="https://www.aljazeera.com/news/2025/11/20/cop30-attendees-in-brazil-forced-to-evacuate-pavilion-following-fire?utm_source=chatgpt.com" class=" fw-bold f fs-4" target="_blank"> Veja mais sobre</a></small>
+                        </div>
+                        </div>
+                    <div class="col-md-6">
+                        <div class="fatosc h-100 border border-2 border-primary">
+                            <div class="fatosn text-primary">Incêndios florestais como pauta prioritária</div>
+                            <p class="card-text flex-grow-1 fst-italic ba">O Brasil lançou um apelo global para fortalecer ações de prevenção, propondo o manejo inteligente do fogo como ferramenta climática estratégica.</p>
+                            <small><a href="https://www.gov.br/mma/pt-br/noticias/brasil-lanca-chamado-a-acao-global-para-fortalecer-prevencao-aos-incendios-florestais?utm_source=chatgpt.com" class=" fw-bold f fs-4" target="_blank"> Veja mais sobre</a></small>
+                        </div>
+                        </div>
+                </div>
+
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-md-10">
+                        <div class="fatosc border border-2 border-primary">
+                            <div class="fatosn text-primary">Pressão por financiamento e cooperação internacional</div>
+                            <p class="card-text  flex-grow-1 fst-italic">Na COP30, o Brasil defende mecanismos de financiamento para proteger florestas, mobilizando apoio global para prevenir incêndios e aumentar a resiliência.</p>
+                            <small><a href="https://www.gov.br/mma/pt-br/noticias/cop30-brasil-lidera-dialogo-global-sobre-solucoes-para-escalar-financiamento-para-florestas-ate-2030?utm_source=chatgpt.com" class=" fw-bold f fs-4" target="_blank"> Veja mais sobre</a></small>
+                        </div>
+                        </div>
+                    </div>
+            </div>    
+        </section>
+</section>
+
+    
+        
+
+    </div>
+    <footer  id="ft">
+<p class="text-center fs-4 fw-bold text-muted">Feito por Luíz, Gabriel, Isabela Souza, Maria Eduarda Costa, Matheus, Miguel da Silva </p>
+<br>
+
+</footer>
+</body>
+</html>
